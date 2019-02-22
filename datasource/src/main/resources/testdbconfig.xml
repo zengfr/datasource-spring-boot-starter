@@ -1,0 +1,22 @@
+<dbconfig>
+	<dbsets>
+		<dbset name="test1" provider="H2">
+			<db name="test1m" dbtype="Master" shardid="0" />
+			<db name="test1s" dbtype="Slave" shardid="0" />
+		</dbset>
+		<dbset name="test2" provider="H2" shardstrategy="">
+			<db name="test2ms0" dbtype="Master" shardid="0" />
+			<db name="test2ms1" dbtype="Master" shardid="1" />
+			<db name="test2ms2" dbtype="Master" shardid="2" />
+			<db name="test2ms3" dbtype="Master" shardid="3" />
+			<db name="test2ss0" dbtype="Slave" shardid="0" />
+			<db name="test2ss1" dbtype="Slave" shardid="1" />
+			<db name="test2ss2" dbtype="Slave" shardid="2" />
+			<db name="test2ss3" dbtype="Slave" shardid="3" />
+			<db name="test2ss0_1" dbtype="Slave" shardid="0" />
+			<db name="test2ss1_1" dbtype="Slave" shardid="1" />
+			<db name="test2ss2_1" dbtype="Slave" shardid="2" />
+			<db name="test2ss3_1" dbtype="Slave" shardid="3" />
+		</dbset>
+	</dbsets>
+</dbconfig>     
